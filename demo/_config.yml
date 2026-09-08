@@ -5,10 +5,12 @@ description: "Short title/description (e.g. Software Engineer. Creator of X.)"
 email: "ender@enderkus.com.tr"
 author: "Ender Kuş"
 
-# When publishing on GitHub Pages, update url with your username
-# If using a custom domain (e.g. yoursite.com), put just that and leave baseurl empty
+# This demo is published as a project site (github.com/enderkus/jekyll-theme-colophon),
+# so it's served under a /jekyll-theme-colophon/ subpath — hence the baseurl below.
+# For your own blog on a user/org site (username.github.io) or a custom domain,
+# set baseurl back to "" and drop the path from url.
 url: "https://enderkus.github.io"
-baseurl: ""
+baseurl: "/jekyll-theme-colophon"
 
 # Social links — leave blank if unused, the include hides it automatically
 social:
