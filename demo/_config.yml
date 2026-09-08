@@ -1,0 +1,55 @@
+# Site settings — update with your own info
+title: "Your Name"
+tagline: "Short title/description (e.g. Software Engineer. Creator of X.)"
+description: "Short title/description (e.g. Software Engineer. Creator of X.)"
+email: "you@example.com"
+author: "Your Name"
+
+# When publishing on GitHub Pages, update url with your username
+# If using a custom domain (e.g. yoursite.com), put just that and leave baseurl empty
+url: "https://username.github.io"
+baseurl: ""
+
+# Social links — leave blank if unused, the include hides it automatically
+social:
+  twitter: "username"
+  linkedin: "username"
+  github: "username"
+  website: ""
+  website_label: ""
+
+# ConvertKit subscription form
+# Create your form in ConvertKit under Grow > Landing Pages & Forms,
+# grab it as "Embed" > "Formatted HTML", and paste the form ID here.
+convertkit:
+  form_id: "XXXXXXX"
+
+permalink: /:title/
+
+# Pulls in layouts, includes and default assets from the jekyll-theme-colophon gem.
+# See ../README.md for how this gem dependency is wired up in this demo's Gemfile.
+theme: jekyll-theme-colophon
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

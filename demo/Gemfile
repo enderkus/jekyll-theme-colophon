@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+
+# Uses the theme gem from the parent directory during development.
+# Once the theme is published, replace this with:
+#   gem "jekyll-theme-colophon", "~> 0.1"
+gem "jekyll-theme-colophon", path: "../"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+end

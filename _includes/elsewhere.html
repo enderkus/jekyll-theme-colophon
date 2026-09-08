@@ -1,0 +1,6 @@
+<ul class="elsewhere">
+{% if site.social.twitter != "" %}<li><a href="https://twitter.com/{{ site.social.twitter }}" rel="me">Twitter</a></li>{% endif %}
+{% if site.social.linkedin != "" %}<li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" rel="me">LinkedIn</a></li>{% endif %}
+{% if site.social.github != "" %}<li><a href="https://github.com/{{ site.social.github }}" rel="me">GitHub</a></li>{% endif %}
+{% if site.social.website != "" %}<li><a href="{{ site.social.website }}" rel="me">{{ site.social.website_label | default: site.social.website }}</a></li>{% endif %}
+</ul>

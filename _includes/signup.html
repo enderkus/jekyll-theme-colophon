@@ -1,0 +1,8 @@
+<div class="signup">
+<p>Get an email when I publish something new. No other mail, ever.</p>
+<form action="https://app.kit.com/forms/{{ site.convertkit.form_id }}/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="{{ site.convertkit.form_id }}">
+<input type="email" name="email_address" placeholder="you@example.com" aria-label="Email address" required autocomplete="email" spellcheck="false">
+<button type="submit">Notify me</button>
+</form>
+<p class="rss">Or follow along by <a href="{{ '/feed.xml' | relative_url }}">RSS</a>.</p>
+</div>
