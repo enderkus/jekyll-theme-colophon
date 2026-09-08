@@ -23,7 +23,7 @@ A working example lives in [`/demo`](./demo).
 This theme isn't published on RubyGems — install it straight from GitHub. In your own Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-colophon", git: "https://github.com/username/jekyll-theme-colophon"
+gem "jekyll-theme-colophon", git: "https://github.com/enderkus/jekyll-theme-colophon"
 ```
 
 Then in `_config.yml`:

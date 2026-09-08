@@ -1,20 +1,20 @@
 # Site settings — update with your own info
-title: "Your Name"
+title: "Ender Kuş"
 tagline: "Short title/description (e.g. Software Engineer. Creator of X.)"
 description: "Short title/description (e.g. Software Engineer. Creator of X.)"
-email: "you@example.com"
-author: "Your Name"
+email: "ender@enderkus.com.tr"
+author: "Ender Kuş"
 
 # When publishing on GitHub Pages, update url with your username
 # If using a custom domain (e.g. yoursite.com), put just that and leave baseurl empty
-url: "https://username.github.io"
+url: "https://enderkus.github.io"
 baseurl: ""
 
 # Social links — leave blank if unused, the include hides it automatically
 social:
-  twitter: "username"
-  linkedin: "username"
-  github: "username"
+  twitter: ""
+  linkedin: ""
+  github: "enderkus"
   website: ""
   website_label: ""
 
