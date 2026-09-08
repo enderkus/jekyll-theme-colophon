@@ -1,5 +1,7 @@
 # Colophon
 
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-colophon.svg)](https://rubygems.org/gems/jekyll-theme-colophon)
+
 A minimal Jekyll theme for personal blogs: system-font serif typography, light/dark mode, an RSS feed, and a built-in ConvertKit signup form. No CSS framework, no JS framework, no web fonts — just a single small stylesheet.
 
 Two layouts:
@@ -20,7 +22,13 @@ A working example lives in [`/demo`](./demo).
 
 ## Installation
 
-This theme isn't published on RubyGems — install it straight from GitHub. In your own Jekyll site's `Gemfile`:
+Add it to your own Jekyll site's `Gemfile`:
+
+```ruby
+gem "jekyll-theme-colophon"
+```
+
+Or, to track the latest commit instead of a released version:
 
 ```ruby
 gem "jekyll-theme-colophon", git: "https://github.com/enderkus/jekyll-theme-colophon"

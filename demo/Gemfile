@@ -2,9 +2,9 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
 
-# Uses the theme gem from the parent directory during development.
-# Once the theme is published, replace this with:
-#   gem "jekyll-theme-colophon", "~> 0.1"
+# Uses the theme gem from the parent directory so local edits show up
+# immediately. The theme is also published at rubygems.org/gems/jekyll-theme-colophon —
+# for your own site, use `gem "jekyll-theme-colophon"` instead.
 gem "jekyll-theme-colophon", path: "../"
 
 group :jekyll_plugins do
